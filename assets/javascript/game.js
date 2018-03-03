@@ -28,7 +28,7 @@ if (userGuess === compGuess){
 }
 
 else if (guessesLeft === 0) {
-    loss++;
+    losses++;
     guessesLeft = 9;
     guesses.length = 0;
 }
